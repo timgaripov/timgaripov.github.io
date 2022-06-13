@@ -1,0 +1,34 @@
+.self-author {
+    font-weight: 700;
+}
+
+.image.is-160x160 {
+    height: 160px;
+    width: 160px;
+}
+
+@media screen and (min-width: 769px), print {
+    .hero.is-marge .hero-body {
+        padding: 10.5rem 5rem;
+    }
+}
+
+#portrait-image {    
+    height: 318px;
+    width: 318px;
+}
+
+.bg-img { 
+    background-image: url(../images/bgimg.png);
+    background-position: 50% 55%;
+    background-repeat:  no-repeat;
+    
+    background-size: cover;
+    background-color: #999;
+}
+
+.level-is-shrinkable .level-left,
+.level-is-shrinkable .level-right,
+.level-is-shrinkable .level-item {
+    flex-shrink: 1;
+}
